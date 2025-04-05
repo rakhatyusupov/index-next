@@ -1,5 +1,11 @@
-export const metadata = {
-  title: "Index",
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "INDEX",
+    template: "%s | Index",
+  },
+
   description: "Медиа об арт-институциях",
 };
 
@@ -13,8 +19,8 @@ export default function RootLayout({
       <body>
         <nav>link</nav>
         {children}
+        <footer>footer component</footer>
       </body>
-      <footer>footer component</footer>
     </html>
   );
 }
