@@ -1,0 +1,196 @@
+.skeleton-primary {
+  background-color: var(--foreground-primary-rest);
+  color: var(--text-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.skeleton-primary:hover {
+  background-color: var(--foreground-primary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.skeleton-primary:focus {
+  outline: 1px solid var(--stroke-primary);
+  outline-offset: -1px;
+}
+
+.skeleton-primary:disabled {
+  background-color: var(--foreground-primary-disabled);
+  color: var(--text-secondary);
+}
+
+.skeleton-secondary {
+  background-color: var(--foreground-secondary-rest);
+  color: var(--text-secondary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.skeleton-secondary:hover {
+  background-color: var(--foreground-secondary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.skeleton-secondary:focus {
+  outline: 1px solid var(--stroke-secondary);
+  outline-offset: -1px;
+}
+
+.skeleton-secondary:disabled {
+  background-color: var(--foreground-secondary-disabled);
+  color: var(--text-secondary);
+}
+
+/*INVERTED*/
+.inverted-primary {
+  background-color: var(--foreground-inverted-primary-rest);
+  color: var(--text-inverted-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.inverted-primary:hover {
+  background-color: var(--foreground-inverted-primary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.inverted-primary:focus {
+  outline: 1px solid var(--stroke-primary-focus);
+  outline-offset: -1px;
+}
+
+.inverted-primary:disabled {
+  background-color: var(--foreground-inverted-primary-disabled);
+  color: var(--text-inverted-secondary);
+}
+
+.inverted-secondary {
+  background-color: var(--foreground-inverted-secondary-rest);
+  color: var(--text-inverted-secondary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.inverted-secondary:hover {
+  background-color: var(--foreground-inverted-secondary-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.inverted-secondary:focus {
+  outline: 1px solid var(--stroke-secondary-focus);
+  outline-offset: -1px;
+}
+
+.inverted-secondary:disabled {
+  background-color: var(--foreground-inverted-secondary-disabled);
+  color: var(--text-inverted-secondary);
+}
+
+/*DUBLIN*/
+.dublin {
+  background-color: var(--foreground-dublin-rest);
+  color: var(--text-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.dublin:hover {
+  background-color: var(--foreground-dublin-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.dublin:focus {
+  outline: 1px solid var(--stroke-dublin-focus);
+  outline-offset: -1px;
+}
+
+.dublin:disabled {
+  background-color: var(--foreground-dublin-disabled);
+  color: var(--text-dublin-secondary);
+}
+
+/*KYOTO*/
+.kyoto {
+  background-color: var(--foreground-kyoto-rest);
+  color: var(--text-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.kyoto:hover {
+  background-color: var(--foreground-kyoto-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.kyoto:focus {
+  outline: 1px solid var(--stroke-kyoto-focus);
+  outline-offset: -1px;
+}
+
+.kyoto:disabled {
+  background-color: var(--foreground-kyoto-disabled);
+  color: var(--text-kyoto-secondary);
+}
+
+/*TEXAS*/
+.texas {
+  background-color: var(--foreground-texas-rest);
+  color: var(--text-texas-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.texas:hover {
+  background-color: var(--foreground-texas-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.texas:focus {
+  outline: 1px solid var(--stroke-texas-focus);
+  outline-offset: -1px;
+}
+
+.texas:disabled {
+  background-color: var(--foreground-texas-disabled);
+  color: var(--text-texas-secondary);
+}
+
+/*TORONTO*/
+.toronto {
+  background-color: var(--foreground-toronto-rest);
+  color: var(--text-toronto-primary);
+  box-shadow: 0px 1px 2px 2px var(--e-1-key);
+  box-shadow: 0px 1px 1px 0px var(--e-1-ambient);
+  border: 0px solid var(--transparent);
+}
+
+.toronto:hover {
+  background-color: var(--foreground-toronto-hover);
+  box-shadow: 0px 1px 2px -2px var(--e-2-key);
+  box-shadow: 0px 0px 2px 0px var(--e-2-ambient);
+}
+
+.toronto:focus {
+  outline: 1px solid var(--stroke-toronto-focus);
+  outline-offset: -1px;
+}
+
+.toronto:disabled {
+  background-color: var(--foreground-toronto-disabled);
+  color: var(--text-toronto-secondary);
+}

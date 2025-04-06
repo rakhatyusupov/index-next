@@ -6,10 +6,10 @@ export default function Home() {
   return (
     <>
       <h1> welcome home</h1>
-      <Link href="./cases">cases</Link>
-      <Link href="./studies">studies</Link>
-      <NavLink href="/about">О нас</NavLink>
-      <Link href="./who">who</Link>
+      <NavLink href="/cases">cases</NavLink>
+      <NavLink href="./studies">studies</NavLink>
+      <NavLink href="./about">О нас</NavLink>
+      <NavLink href="./who">who</NavLink>
       <Button></Button>
     </>
   );
