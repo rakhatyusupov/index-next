@@ -10,7 +10,7 @@ export default function Home() {
       <NavLink href="./studies">studies</NavLink>
       <NavLink href="./about">О нас</NavLink>
       <NavLink href="./who">who</NavLink>
-      <Button></Button>
+      <Button href="./about">PENIS</Button>
     </>
   );
 }

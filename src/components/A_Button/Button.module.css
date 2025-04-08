@@ -6,3 +6,7 @@
   border-radius: var(--radius-max);
   font-size: var(--fontsize-h4);
 }
+
+.test a:visited {
+  color: var(--text-primary);
+}

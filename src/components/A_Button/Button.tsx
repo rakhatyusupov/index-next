@@ -1,9 +1,17 @@
 import styles from "./Button.module.css";
+import { ReactNode } from "react";
 
-export default function Button() {
+interface ButtonProps {
+  href: string;
+  children: ReactNode;
+}
+
+export default function Button({ href, children }: ButtonProps) {
   return (
     <>
-      <button className={styles.test}>sex</button>
+      <button className={styles.test}>
+        <a href={href}>{children}</a>
+      </button>
     </>
   );
 }
