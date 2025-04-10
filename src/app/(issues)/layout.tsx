@@ -10,11 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="rus">
-      <body>
-        <nav>ТЕСТ</nav>
-        {children}
-      </body>
-      <footer>footer component</footer>
+      <body>{children}</body>
     </html>
   );
 }
