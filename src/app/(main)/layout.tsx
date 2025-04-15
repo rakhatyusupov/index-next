@@ -1,5 +1,10 @@
 import "./global.css";
 import { Metadata } from "next";
+import localFont from "next/font/local";
+
+const InterTight = localFont({
+  src: "../../../public/fonts/InterTight-VariableFont_wght.ttf",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="rus">
+    <html lang="ru" className={InterTight.className}>
       <body>
         <nav>link</nav>
         {children}
