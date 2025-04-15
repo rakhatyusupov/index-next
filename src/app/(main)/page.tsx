@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Button from "@/components/A_Button/Button";
-import { NavLink } from "@/components/A_Link/Link";
+import Button from "@/components/Button/Button";
+import { NavLink } from "@/components/Link/Link";
 
 export default function Home() {
   return (
