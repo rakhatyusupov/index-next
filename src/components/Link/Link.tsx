@@ -13,6 +13,7 @@ export const NavLink = ({ href, children }: NavLinkProps) => {
   return (
     <Link href={href} className={styles.NavLink}>
       {children}
+      <div className={styles.highlight} />
     </Link>
   );
 };

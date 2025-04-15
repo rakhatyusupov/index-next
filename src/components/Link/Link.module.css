@@ -1,3 +1,18 @@
 .NavLink {
-  color: red;
+  color: var(--text-primary);
+  background: linear-gradient(
+    90deg,
+    rgba(34, 197, 55, 1) 0%,
+    rgba(34, 197, 55, 1) 0%,
+    rgba(255, 255, 255, 1) 0%
+  );
+}
+
+.NavLink:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(34, 197, 55, 1) 0%,
+    rgba(34, 197, 55, 1) 40%,
+    rgba(255, 255, 255, 1) 40%
+  );
 }
