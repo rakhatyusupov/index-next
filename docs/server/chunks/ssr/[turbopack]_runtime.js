@@ -1,6 +1,6 @@
 const RUNTIME_PUBLIC_PATH = "server/chunks/ssr/[turbopack]_runtime.js";
 const OUTPUT_ROOT = "docs";
-const ASSET_PREFIX = "/index-next/_next/";
+const ASSET_PREFIX = "/_next/";
 /**
  * This file contains runtime types and functions that are shared between all
  * TurboPack ECMAScript runtimes.
