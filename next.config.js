@@ -9,7 +9,7 @@ const nextConfig = {
   },
 
   basePath: "/index-next",
-  assetPrefix: "/index-next",
+  assetPrefix: "/index-next/",
 };
 
 module.exports = nextConfig;
