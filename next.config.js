@@ -8,8 +8,8 @@ const nextConfig = {
     unoptimized: true,
   },
 
-  basePath: "/index-next",
-  assetPrefix: "/index-next/",
+  basePath: ".",
+  assetPrefix: ".",
 };
 
 module.exports = nextConfig;
